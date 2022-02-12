@@ -1,0 +1,38 @@
+.nav-block {
+  height: 91px;
+  background-color: #ffffff;
+}
+
+.search-name {
+  outline: none;
+  border: none;
+  position: relative;
+  padding-left: 2.5rem;
+  height: 3rem;
+  width: 29rem;
+  font-size: 13px;
+}
+
+.align-search-icon {
+  position: absolute;
+  top: 1rem;
+
+  margin-inline-start: 1rem;
+  font-weight: bolder;
+  left: 0;
+}
+.select {
+  height: 3rem;
+  width: 29rem;
+}
+@media screen and (max-width: 767px) {
+  .nav-block {
+    height: 65px;
+  }
+  .search-name {
+    width: 100%;
+  }
+  .m-up-rl {
+    margin: 1.5rem 1rem;
+  }
+}
